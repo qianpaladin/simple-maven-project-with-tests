@@ -12,7 +12,7 @@ node ('sghjks01') {
     }
   }
   stage('Results') {
-    junit '**/target/surefire-reports/TEST-*.xml'
-    archive 'target/*.jar'
+    #junit '**/target/surefire-reports/TEST-*.xml'
+    archive 'target/mytvapp/*'
   }
 }
