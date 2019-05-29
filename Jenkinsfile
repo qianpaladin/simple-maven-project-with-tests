@@ -1,5 +1,5 @@
     
-node ('sghcnt00') {
+node ('sghjks01') {
   checkout scm
   stage('Build') {
     withMaven(maven: 'M3') {
